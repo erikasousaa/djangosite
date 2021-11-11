@@ -1,0 +1,2 @@
+SECRET_KEY=m$wyh4qwpllt)!1$xzuad6(n_qdw*@sfzreec8z^bcil_0qxow
+DATABASE_URL=postgres://postgres:admin@localhost:5434/sitecovid

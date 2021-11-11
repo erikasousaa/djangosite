@@ -1,0 +1,314 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 - Saiba mais</title>
+    <link rel="shortcut icon" href="{% static 'img/icon1.jpg' %}">
+    <link href="css/theme.css" rel="{% static 'stylesheet' % static %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+
+<style>
+/*corpo do site  */
+  body {
+    background: #fff
+
+    
+    
+  }
+  p{
+    text-align: justify;
+  }
+
+</style>
+    <div class="container-fluid" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark p-3 mb-5" > 
+        
+          <a class="navbar-brand" href="#">COVID-19</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"></li>
+            <a class="nav-link active" aria-current="page" href="#paginainicial">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oqueé">O que é?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sintomas">Sintomas</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transmitido">Como é transmitido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#diagnostico">Diagnóstico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#perguntas">Perguntas Frequentes</a>
+          </li>
+          
+         
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" id="texto" list="historico" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+       </div>
+    
+      
+      </nav>
+    </div>
+    
+  <!--carrossel-->
+  <div class="container-fluid mt-5" >
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'img/banner2.png' %}" class="d-block w-100" alt="test">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'img/banner1.png' %}" class="d-block w-100" alt="teste2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'img/banner3.png' %}" class="d-block w-100" alt="teste3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+
+  
+
+
+</main>
+<body>
+
+
+  
+  
+    <div id="oqueé"><br>
+      
+      
+      <style>
+  p { margin-left: 2%; }
+  p { margin-right: 3%; }
+</style>
+ <p><h1><font face="comic sans"><p>O que é?</p></font></h1></p>
+ 
+<p>É uma doença respiratória causada pelo vírus SARS-CoV-2, que pertence à família dos
+  coronavírus. Nessa família, existem vírus que podem causar doenças em animais (incluindo humanos),
+  como vários resfriados. COVID-19 é uma infecção que começa com doenças semelhantes a gripes e 
+ resfriados>, mas pode piorar e até levar à morte.
+ Os primeiros casos de COVID-19 apareceram em Wuhan,
+  China, em dezembro de 2019, apresentando casos de pneumonia de causa desconhecida.
+  O grande aumento no número de pacientes levou o governo municipal a estabelecer um período de quarentena a partir de 23 de janeiro de 2020.
+ Como a doença é fácil de se espalhar, outros países
+ logo começaram a ver casos. Em 11 de março de 2020, a Organização Mundial da Saúde 
+ (OMS) anunciou o status da pandemia. COVID-19 (doença do coronavírus 2019) é uma doença causada pelo novo coronavírus SARS-CoV-2 (síndrome respiratória
+  aguda severa do Coronavírus 2) (um vírus de RNA). A doença se espalha basicamente de uma pessoa para outra por meio de gotículas produzidas no trato 
+  respiratório de uma pessoa infectada e são liberadas no meio ambiente por meio da tosse, espirro ou secreção. A inalação ou inalação de
+   partículas contaminadas por vírus na boca, olhos ou mucosa nasal pode infectar a pessoa. O período de incubação dura em média 5 a 6 dias,
+    podendo durar de 1 a 14 dias. As pesquisas mais recentes mostram que após a infecção, mesmo no período de incubação, antes do aparecimento dos 
+    sintomas, e mesmo no estágio final de desenvolvimento da doença, os pacientes infectados podem disseminar o vírus. É muito provável que este vírus
+     tenha tido origem em morcegos. O que não está completamente elucidado é como ele passou
+     a infectar as pessoas na China. Entretanto, não é algo incomum que vírus que infectam animais, sofram mutações que os tornem capazes de infectar seres humanos.</p>
+     <img src="{% static 'img/img4.png' %}" width="400" height="400">
+   
+      <h4><p>Conheça os tipos de exames</p></h4>
+     <br>
+     <h5><p>Sorologia:</p></h5>
+     
+     <p>São testes imunológicos capazes de detectar os níveis de anticorpos IgM e IgG em amostra de sangue<br> do paciente.
+      É aconselhado para pacientes com sintomas a partir do sétimo dia, tempo que leva para os<br> anticorpos começarem a ser produzidos.
+       Ressaltamos que um resultado negativo NÃO exclui a presença da doença.</p>
+       <br>
+     <h5><p>Teste de antígeno:</p></h5>
+     <p>Tem como objetivo identificar a infecção atual de COVID-19 em indivíduos e é realizado quando uma<br> pessoa apresenta sinais ou sintomas.
+         Pode ser utilizado em pacientes assintomáticos que tiveram contato<br> com caso positivo - nesse caso, recomendamos a repetição do teste em 72 horas, caso o resultado
+      seja<br> negativo. É um exame mais rápido na divulgação dos resultados, de 2 a 3 horas após a aplicação do teste.<br></p>
+      <br>
+ <h4><p>Por que a doença foi batizada de covid-19?</p></h4>
+
+ <p>"Co" significa corona, "vi" vem de um vírus e "d" significa "doença". O número 19 indica o ano de seu
+ <br> aparecimento, 2019. Este nome substitui 2019-nCoV, que foi temporariamente determinado após o
+ <br> aparecimento de doenças respiratórias. O novo nome foi escolhido porque é fácil de pronunciar e não há
+ <br> menções estigmatizantes de países ou populações específicas.</p>
+ <br>
+ </div>
+ <div id="sintomas">
+	 <h2><font face="comic sans"><p>Sintomas</p></font></h2>
+	<p>O período de incubação de COVID-19 (o tempo entre a infecção e o início dos sintomas) é de aproximadamente 14 dias. Os principais
+   sintomas da doença são febre, tosse seca e dificuldade respiratória. Além disso, alguns pacientes também podem sentir dores no corpo,
+    coriza, fadiga, dor de garganta e diarreia. Os sintomas geralmente aparecem de forma moderada
+   e gradual, e muitos pacientes podem curar sem tratamento especial. No entanto, algumas pessoas podem piorar a doença, ter
+    dificuldade para respirar ou até morrer. Idosos e indivíduos com certos problemas de saúde (como hipertensão, doenças cardíacas
+    e diabetes) têm maior probabilidade de piorar a doença. Os sintomas da Covid são divididos em três estágios: Os mais comuns: Febre, tosse seca e cansaço.
+    Os mais comuns são os primeiros sintomas que o infectado com Covid sente, em cada pessoa reage de uma forma. Geralmente jovens entre 15 a 20 anos sente apenas
+     os sintomas mais comuns, não levando ao agravamento da doença. Os menos comuns: Dores e desconforto, Dor de Garganta, Diarreia, Conjuntivite, Dores de cabeça
+     Perda de paladar e olfato, Mudança na pele e cor dos dedos dos pés e mãos .
+    Os sintomas menos comuns são um pouco mais avançados, ele reage dessa forma quando o infectado não se cuida corretamente ou não começa o tratamento para a 
+    erradicação do vírus em seu corpo. Geralmente leva aos sintomas mais graves da doença que leva a intubação ou até a morte. Os mais gaves: Dificuldade de respirar 
+    ou falta de ar, Dor no peito, Perda da fala e movimentação
+    Os sintomas mais graves são os mais difíceis de ser enfrentado e combatido. Só pessoas com idades mais avançadas ou com alguma doença crônica chegam nesses sintomas.
+     Geralmente são intubados para conter o vírus que já faz parte de todo o corpo do paciente.
+    É bastante comum que nos primeiros dias os infectados sintam os sintomas mais comum. Geralmente pessoas com a idade mais avançada começa a sentir os sintomas mais
+     graves, levando a piora do caso.
+    Os sintomas vão se agravando conforme o tempo for passando, se não tratados o quadro do paciente fica involuntário levando a perda do mesmo.</p>
+    <img src="{% static 'img/img1.png' %}" width="400" height="400">
+    <br><br>
+    <br>
+
+ </div>
+
+ <div id="transmitido">
+	<h2><font face="comic sans"><p>Como é transmitido</p></font></h2>
+ <p>A principal via de transmissão do COVID-19 é o contato com o paciente,
+   que elimina as gotículas respiratórias ao tossir ou espirrar e, eventualmente,
+    contaminar outras pessoas. Além disso, ao tossir ou espirrar, o paciente pode 
+    contaminar o corpo. Pessoas saudáveis ​​também podem ser contaminadas se tocarem em 
+    objetos contaminados e colocarem as mãos na boca, nariz ou olhos sem primeiro limpá-los.
+ É importante ressaltar que, em alguns casos, uma pessoa infectada pode disseminar a
+ doença antes mesmo do aparecimento dos sintomas. Geralmente o vírus é transmitido pelo ar,
+  mas existe diversas formas de contágio como por exemplo: Gotículas de saliva, Espirro, Tosse, 
+  Catarro. Contato com algum infectado como aperto de mão ou com contato com alguma superfície
+   infectada levando as mãos as vias nasais, boca ou olhos.
+ As formas de contágio são as grandes responsáveis pela forma de como o vírus se tornou tão
+  difícil de ser combatido, pois são transmitidos de uma forma muito rápida e é quase impossível não se 
+  contaminar enquanto entra em contato com alguma gotícula do vírus.
+ Os locais mais fáceis de contaminação dizem muito sobre como o vírus se espalhou com mais
+  precisão pois são produtos que milhões de pessoas usam todos os dias e como demora para
+   o vírus morrer ou ficar indisponível para infecção temos como exemplo quanto tempo demora 
+   para a erradicação do vírus nesses objetos: No plástico o vírus sobrevive até 4 dias, 
+   No aço inoxidável de 2 a 4 dias, No vidro 2 dias, Nos tecidos e em madeiras demoram 1 dia, No papel demora 30 minutos.</p>
+   <img src="{% static 'img/img2.png' %}" width="400" height="400">
+ <br>
+
+  </div>
+ <div id="diagnostico"><br>
+	 <h2><font face="comic sans"><p>Diagnóstico</p></font></h2>
+ <p>O diagnóstico da COVID-19 é feito por meio de exames laboratoriais com 
+    material respiratório coletado dos pacientes. Se houver suspeita de doença, 
+    colete duas amostras.
+   Até o momento, não há tratamento específico para COVID-19, apenas os sintomas
+    foram tratados. No entanto, é recomendado o encaminhamento dos casos graves para 
+    um hospital de referência para isolamento e tratamento dos pacientes, o que inclui
+     principalmente a manutenção das funções do corpo, incluindo suporte respiratório. 
+     Recomenda-se manter alguns cuidados domiciliares para casos leves, como repouso e hidratação,
+      acompanhados de atenção básica (APS)</p>
+      <img src="{% static 'img/img3.png' %}" width="400" height="400">
+     <br>
+    <h5><p>O diagnóstico é dividido em três formas: O clínico:</p></h5>
+     <p>O paciente vai em uma clínica local,
+       após os médicos examinarem os dos sintomas e a forma física do paciente, se o mesmo for 
+       diagnosticado como suspeito de infecção ele então é conduzido a fazer o teste laboratorial,
+        que é outra forma de diagnostico.
+      O laboratorial: Depois de ser conduzido o paciente é levado a realizar por meio das técnicas
+       de RT-PCR que depois de determinados dias após fazer o exame o paciente vai buscar o seu diagnóstico.
+      O teste rápido: O teste rápido é uma forma de diagnostico instantâneo, onde o paciente é levado 
+      a tirar com um equipamento medico (um cassete de plástico, que se parece com os que são usados em
+       testes de gravidez) uma gotícula de sangue para que possa ser testada a um reagente que mostra se o resultado é positivo ou negativo.</p>
+      <br>
+ </div>
+
+ <div id="perguntas"><br>
+	 <h2><font face="comic sans"><p>Perguntas Frequentes</p></font></h2>
+	 <h5><p>O isolamento social é a melhor forma de combater o Coronavírus?</p></h5>
+   <p>O isolamento ajuda a  reduzir a exposição das pessoas em relação ao vírus, diminuindo o risco de contágio<br> e a disseminação da doença.
+    Quando não há interação social os números de casa tendem a diminuir, é<br> importante adotar a medida sempre que possível.</p>
+   <br>
+   <h5><p>Caso uma pessoa volte a ter os sintomas, seria uma recaída do vírus, ou uma nova infecção?</p></h5>
+    <p>Apesar das duas situações serem teoricamente possíveis de ocorrer, ainda não se tem comprovação<br> científica definitiva da ocorrência de nenhuma delas. Somente a continuidade dos estudos clínicos e<br> laboratoriais da doença permitirá uma conclusão a esse respeito. Uma outra possibilidade para justificar o<br> reaparecimento de sintomas poderia ser devido ao diagnóstico de COVID-19 de um dos quadros não ter<br> sido confirmado com total segurança. Por exemplo, ter sido causado por outra doença infecciosa com<br> quadro clínico similar, e o diagnóstico não ter sido confirmado pelos exames complementares corretamente.
+      <br><br>
+  <h5><p>O vírus pode ser transmitido pelo soro ou sangue total? Há a possibilidade de contaminação pelas mucosas?</p></h5>
+    <p>A forma principal de transmissão da doença é através de produtos do trato respiratório, por meio de<br> gotículas dessa origem. Se o indivíduo estiver produzindo essas gotículas infectadas e entrar em contato<br> com pessoas, em uma distância menor de 2 metros, é possível ocorrer a contaminação. Outra forma<br> também já definida de contágio é através de superfícies, o indivíduo em contato com uma superfície<br> contaminada pode se infectar ao levar a mão aos olhos, nariz e boca. A carga de infecção viral pode variar<br> de acordo com material e o tempo de contato do material com o vírus. Não são encontrados expostos<br> que afirmem a infecção por soro ou sangue total.</p>
+    <br><br><br>
+   <h5><p>Meu animal de estimação pode se infectado pelo novo Coronavírus?</p></h5>
+    <p>Até o momento não houve estudos sobre infecção do SARS-CoV-2 em animais de estimação. Acredita-se<br> que os gatos (felinos) sejam mais propícios a infecção, mas não evidências que a doença seja transmitida<br> para humanos e para outros animais.</p>
+    <br><br><br>
+   <h5><p>Em caso de diagnóstico positivo, como proceder?</p></h5>
+    <p>Quando o resultado for positivo é essencial seguir as recomendações médicas e adotar imediatamente o<br> isolamento social, também é importante comunicar os orgãos competentes sobre o resultado do exame<br> para fins de controle epidemiológico.</p>
+    <br><br><br>
+   <h5><p>Tive contato com uma pessoa diagnosticada, mas não apresentei sintomas, qual o melhor exame para fazer?</p></h5>
+   <p>No período do contato inicial com o paciente, preferencialmente a partir do quinto dia até em torno de<br> duas semanas após, o exame mais indicado é o RT-PCR. Para os testes sorológicos o ideal é realizar<br> apenas a partir de três semanas após o contato, preferencialmente após o primeiro mês.</p>
+    <br><br><br>
+   <h5><p>Como é feita a extração de DNA das amostras para realizar o teste da COVID?</p></h5>
+  <p>O material genético extraído é o RNA do vírus. Este é um material bem mais delicado que o DNA, sendo<br> necessário uma estrutura de alta complexidade para a realização do teste, a fim de obter-se resultados<br> precisos e seguros. No DB Molecular a extração deste RNA é feita por equipamentos de última geração,<br> de forma totalmente automatizada para manter a qualidade em todo o processo até a obtenção do<br> resultado.</p>
+
+ </div>
+  <script>
+    $('nav a').click(function(e){
+    e.preventDefault();
+    var id = $(this).attr('href')
+    targetOffset = $(id).offset().top,
+    menuHeight = $('nav').innerHeight();
+
+     console.log(menuHeight);
+
+      $('html, body').animate({
+    scrollTop: targetOffset - menuHeight
+     }, 100);
+     });
+  </script>
+  
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+ 
+ 
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+</html>

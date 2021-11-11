@@ -1,0 +1,51 @@
+/*slider*/
+
+.container.fluid {
+    padding: 0;
+}
+
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+    height: 90vh;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    top: 30%;
+}
+
+#carouselExampleCaptions .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#header{
+    margin:0%; 
+    border:1px;
+    width:420px;
+    margin-top:46px;
+    padding:14px; 
+    height:90vh;}
+
+    .container.fluid {
+        padding: 0;
+    }
+        #carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+        height: 90vh;
+    }
+          
+      
+      #carouselExampleCaptions .carousel-caption {
+        top: 30%;
+    }
+    
+    #carouselExampleCaptions .carousel-caption h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+     style>
+        #carouselExampleCaptions .carousel-inner, .carousel-item  .carousel-item {
+            width: 500;
+            height: 90vh;
+            padding: 0;
+        }
+     
